@@ -28,6 +28,9 @@ int pembagian(int bil_1, int bil_2) {
     return bil_1 / bil_2;
 }
 
+void display(string status,int hasil) {
+    cout << status << hasil << endl;
+}
 
 
 int main()
@@ -47,7 +50,8 @@ int main()
         switch (pilihan) {
         case 1:
             input();
-            cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;
+            //cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;/
+            display("Hasil Penjumlahan = ", penjumlahan(a, b));
             system("pause");
             break;
         case 2:
