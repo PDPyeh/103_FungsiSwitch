@@ -18,6 +18,15 @@ int penjumlahan(int bil_1, int bil_2) {
 
 int pengurangan(int bil_1, int bil_2) {
     return bil_1 - bil_2;
+}
+
+int perkalalian(int bil_1, int bil_2) {
+    return bil_1 * bil_2;
+}
+
+
+
+
 
 int main()
 {
